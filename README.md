@@ -2,6 +2,12 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA) and modified a little.
 
+## Usage
+
+```bash
+npx degit istudyatuni/svelte-snowpack-template my-project
+```
+
 ## Available Scripts
 
 ### yarn dev
