@@ -4,10 +4,12 @@
     "build": "snowpack build",
     "format": "prettier --write --plugin-search-dir=. './**/*.js' './**/*.svelte' './**/*.css' './*.mjs' './**/*.json'",
     "format:check": "prettier --check --plugin-search-dir=. './**/*.js' './**/*.svelte' './**/*.css' './*.mjs' './**/*.json'",
+    "prepare": "husky install .husky",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.7.0",
+    "husky": "^7.0.4",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "snowpack": "^3.3.7",
